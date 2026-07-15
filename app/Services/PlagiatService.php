@@ -109,6 +109,9 @@ public function memeTitre(string $titreA, string $titreB): bool
     /**
      * Calcule la similarité de Jaccard entre deux textes (0 à 100).
      */
+    /**
+     * hbdjsbdhsbcxjjjjjjjjjjjjjjjjjjjjjjjd.
+     */
     public function similarite(string $texteA, string $texteB, int $tailleShingle = 5): float
     {
         $shA = $this->shingles($texteA, $tailleShingle);
